@@ -1,6 +1,6 @@
 // Remove Duplicates from Sorted Array
 
-// Approach 1
+// Approach 1 (Leetcode)
 int removeDuplicates(vector<int> &nums)
 {
     unordered_map<int, int> mp;
@@ -17,7 +17,7 @@ int removeDuplicates(vector<int> &nums)
     return nums.size();
 }
 
-// Approach 2
+// Approach 2 (Coding Ninjas)
 int removeDuplicates(vector<int> &arr, int n)
 {
     set<int> st;
