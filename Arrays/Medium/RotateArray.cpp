@@ -39,3 +39,7 @@ vector<int> rotateArray(vector<int> arr, int k)
     reverse(arr.begin(), arr.end());
     return arr;
 }
+
+
+// 66
+// ((0-9))(1-3)(((4+5)((0/2)(5-1)(5/9))(9-0)((4/3)(2+7))(3-6)(((6+2)))))
